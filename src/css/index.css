@@ -1,0 +1,128 @@
+.jumbotron-shadow{
+  border-bottom: 2px solid #1b1e210f;
+}
+.nav-fixed{
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 2;
+  border-bottom: 1px inset #add8e663;
+}
+.pb-30{
+  padding-bottom: 30px;
+}
+.book-ribbon{
+  position: absolute;
+  top: -19px;
+  left: 44px;
+}
+.p-info{
+  font-size: 21px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.container-card{
+  background-color: #563d7c;
+  padding: 50px;
+}
+.custom-img{
+  max-width: 114%;
+  position: relative;
+  left: -5px;
+}
+.custom-img2{
+  max-width: 76%;
+  position: relative;
+  left: 17px;
+}
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.pagination {
+  margin-bottom: 30px;
+}
+.web-card{
+  padding: 35px;
+}
+.bio-card{
+  padding: 25px;
+}
+.bio-bg{
+  background: url('../img/wallpaper.jpg') no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+.fade-carousel .carousel-inner .carousel-caption{
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s;
+        -ms-transition: 2s all ease-in-out .1s;
+         -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
+}
+
+.carousel-fade .carousel-item {
+  display: block;
+  position: relative;
+  opacity: 0;
+  transition: opacity .75s ease-in-out;
+}
+.carousel-fade .carousel-item.active {
+  opacity: 1;
+  display: block;
+}
+.carousel {
+  position: relative;
+  top: 100px;
+  left: 0;
+  background-color: lightskyblue;
+}
+.carousel-inner {
+  background-color: pink;
+  height: 100%;
+}
+.carousel-item {
+  background-color: yellow;
+  opacity .5;
+}
+a.carousel-control-next:link, a.carousel-control-prev:link {
+  background-color: transparent;
+  text-decoration: none;
+  opacity: .5;
+}
+a.carousel-control-next:hover, a.carousel-control-prev:hover  {
+  background-color: transparent;
+  text-decoration: none;
+  opacity: 1;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  position:relative;
+  background-image: none;
+}
+.carousel-control-next-icon:before {
+  top:0;
+  left:-5px;
+  padding-right:10px;
+ }
+.carousel-control-prev-icon:before {
+  top:0;
+  left:-5px;
+  padding-right:10px;
+}
+.header {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    max-width: 1920px;
+}
+.header-container {
+    width: 100%;
+    background: rgba(255,255,255,.8);
+    box-shadow: 0 2px 2px rgba(0,0,0,.25);
+    position: absolute;
+    z-index: 300;
+    top: 0;
+    left: 0px;

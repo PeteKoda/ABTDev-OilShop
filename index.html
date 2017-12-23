@@ -10,23 +10,25 @@
     <link rel="stylesheet" type="text/css" href="src/css/index.css">
     <link rel="stylesheet" type="text/css" href="src/css/scrollbar.css">
   </head>
-  <body  id="style-7">
+  <body style="overflow-x:hidden;">
     <!-- Welcome Jumbotron -->
 <div class="container-fluid">
   <div class="header-container">
     <div class="header">
       <div class="row">
         <div class="col-sm-2 col-md-2 col-lg-2">
-           1 of 3
+
         </div>
-       <div class="col-sm-8 col-md-8 col-lg-8">
-         <span>Home</span>
-         <span>Products</span>
-         <span>Contact</span>
+       <div class="col-sm-2 col-md-2 col-lg-6">
 
        </div>
-       <div class="col-sm-2 col-md-2 col-lg-2">
-         3 of 3
+       <div class="col-sm-5 col-md-5 col-lg-4">
+         <div class="row" style="    padding-top: 23px;">
+           <a class="header-link " href="#">Home</a>
+           <a class="header-link " href="#">About</a>
+           <a class="header-link " href="#">Products</a>
+           <a class="header-link " href="#">Contact</a>
+       </div>
        </div>
      </div>
     </div>
@@ -36,9 +38,9 @@
   		<div id="carousel" class="carousel carousel-fade" data-ride="carousel">
   			<div class="carousel-inner" role="listbox">
   				<div class="carousel-item active">
-  					<img class="d-block w-100" src="src/img/bgDemo.jpg" style="max-height:500px;" alt="First slide">
+  					<img class="d-block w-100" src="src/img/bgDemo.jpg" style="height:600px;" alt="First slide">
   				</div> <!-- close carousel-item 1 -->
-  				<div class="carousel-item" style="position: absolute; top:0px; width: 100% ;max-height:500px;">
+  				<div class="carousel-item" style="position: absolute; top:0px; width: 100% ;height:600px;">
   					<img class="d-block w-100" src="src/img/demo2.jpg" alt="Second slide">
   				</div> <!-- close carousel-item 2 -->
   				<div class="carousel-item" style="position: absolute; top:0px; width: 100% ; height: 100%">
@@ -57,9 +59,9 @@
   		</div> <!-- close carousel -->
   </div>
     <!-- Bio - Experience -->
-    <div class="jumbotron jumbotron-fluid bio-bg bg-faded text-white text-center mb-0">
+    <div class="jumbotron jumbotron-fluid bio-bg bg-faded text-white text-center mb-0" style="width: 100%;">
         <div class="container text-muted">
-
+            <h2>About us </h2>
         </div>
     </div>
     <!-- Web Technologies -->
@@ -68,7 +70,7 @@
 
       </div>
     <!-- Portfolio Project Cards -->
-    <div class="container">
+    <div class="container-fluid">
       <!-- Page Heading -->
       <h1 class="my-4">Page Heading
         <small>Secondary Text</small>

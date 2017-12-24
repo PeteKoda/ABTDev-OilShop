@@ -1,3 +1,9 @@
+body{
+  font-family: "Lato", sans-serif !important;
+}
+.display-in{
+  display:inline-block;
+}
 .display-inline{
   display: inline-block;
 }
@@ -271,3 +277,22 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
        blue ) right no-repeat;
    background-size:100% 0px, 100% 0px,1px 100%;
  }
+.contact-us{
+  text-align: left;
+  color: white;
+}
+.contact-list{
+  text-align: left;
+  color: #777;
+}
+.contact-info{
+  width: 215px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: 33px;
+}
+.contact-p{
+  margin-left: 7px;
+}

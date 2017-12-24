@@ -181,3 +181,26 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
   font-size: 21px;
   padding: 70px;
 }
+.center-object{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.prod-box{
+  width: 89%;
+}
+.prod-name{
+  text-align: center;
+  font-size: 21px;
+  color: #4a4a19;
+  margin: 0px;
+}
+.prod-img{
+  border: 3px solid #585a2a;
+  border-left: 0;
+  border-right: 0;
+}
+.carousel-size{
+  height: 800px;
+  margin-bottom: 50px;
+}

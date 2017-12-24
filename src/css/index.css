@@ -88,7 +88,6 @@
   height: 100%;
 }
 .carousel-item {
-  background-color: yellow;
   opacity .5;
 }
 a.carousel-control-next:link, a.carousel-control-prev:link {
@@ -204,3 +203,71 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
   height: 800px;
   margin-bottom: 50px;
 }
+.add-cart{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  background-color: #585a2a;
+  font-size: 16px;
+  color: white;
+}
+.cart-bag{
+  width: 20px;
+  position: relative;
+  top: -3px;
+  left: -4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  background-color: #2b2b2b;
+  margin-top: 43px;
+}
+.footer-tabs{
+  border-right: 1px solid black;
+  height: 300px;
+  margin-top: 31px;
+  margin-bottom: 31px;
+}
+.box1 {
+   background:
+     linear-gradient(
+       to left,
+       red 0,
+       red 33.3%,
+       orange 33.3%,
+       orange 66.6%,
+       blue 66.6%,
+       blue ) top no-repeat,
+     linear-gradient(
+       to right,
+       red 0,
+       red 33.3%,
+       orange 33.3%,
+       orange 66.6%,
+       blue 66.6%,
+       blue ) bottom no-repeat,
+     linear-gradient(
+       to top,
+       red 0,
+       red 33.3%,
+       white 33.3%,
+       white 66.6%,
+       blue 66.6%,
+       blue ) right no-repeat;
+   background-size:100% 0px, 100% 0px,1px 100%;
+ }

@@ -6,7 +6,6 @@ body{
   overflow: hidden;
   width: 102%;
   height: 362px;
-  top: -31px;
   left: -16px;
 }
 .display-in{
@@ -158,13 +157,18 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
   display: inline-block;
   position: fixed;
   top: 120px;
-  right: 0px;
+  right: -81px;
   background-color: #4a4c18eb;
   z-index: 1;
   height: 60px;
   border-top-left-radius: 8px;
   width: 147px;
   border-bottom-left-radius: 8px;
+}
+.checkout:hover{
+  right:0px;
+  transition: right 0.7s;
+  -webkit-transition: right 0.7s;
 }
 .cart{
   width: 52px;
@@ -177,7 +181,7 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
   position: relative;
   top: -586px;
   background-color: #ffffff85;
-  border-radius: 31px;
+  border-radius: 5px;
 }
 .h-about{
   text-align: center;
@@ -192,7 +196,9 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
 }
 .p-about{
   font-size: 21px;
-  padding: 70px;
+  padding: 18px;
+  position: relative;
+  top: -10px;
 }
 .center-object{
   display: block;
@@ -212,6 +218,26 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
   border: 2px solid #585a2a;
   border-left: 0;
   border-right: 0;
+  width: 100%;
+  height: auto;
+}
+.prod-hover:hover{
+
+  zoom:1.02;
+  border: 2px solid #585a2a;
+}
+.prod-size{
+  height: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 331px;
+}
+.product-img-2{
+  position: relative;
+  left: 35px;
 }
 .carousel-size{
   height: 800px;
@@ -221,7 +247,8 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   background-color: #585a2a;
   font-size: 16px;
   color: white;
@@ -233,29 +260,15 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
   left: -4px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer{
   background-color: #2b2b2b;
   margin-top: 43px;
 }
 .footer-tabs{
   border-right: 1px solid black;
-  height: 300px;
-  margin-top: 31px;
-  margin-bottom: 31px;
+}
+.contact-row{
+  margin-top: 61px;
 }
 .box1 {
    background:
@@ -288,6 +301,7 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
 .contact-us{
   text-align: left;
   color: white;
+  margin-bottom: 33px;
 }
 .contact-list{
   text-align: left;
@@ -309,4 +323,13 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
   position: relative;
   text-align: right;
   top: 25px;
+}
+.contact-div{
+  width: 216px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input-mrg{
+  margin: 8px;
 }

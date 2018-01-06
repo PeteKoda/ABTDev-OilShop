@@ -22,7 +22,7 @@
     <div class="header">
       <div class="row">
         <div class="col-sm-2 col-md-2 col-lg-2">
-
+          <h1 class="logo-name">LAVCOR</h1>
         </div>
        <div class="col-sm-2 col-md-2 col-lg-6">
 
@@ -61,7 +61,7 @@
       <div class="container about-us">
         <div>
           <h2 class="h-about">About Us</h2>
-          <p class="p-about">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem </p>
+          <p class="p-about">Nous sélectionnons soigneusement pour vous des produits provenant directement du producteur en Grèce. Des produits sains et traditionnels issus de petites productions locales ayant chacune leurs spécificités.</p>
         </div>
       </div>
     </div>
@@ -96,22 +96,27 @@
   <div class="footer">
     <div class="row">
       <div class="col footer-tabs box1">
-        <div class="contact-info">
-          <h2 class="contact-us">
-            Contact Us
-          </h2>
-          <div class="contact-list">
-            <p class="display-in">Call:</p><p class="display-in contact-p">#33333333333</p>
-          </div>
-          <div class="contact-list">
-            <p class="display-in">Adress:</p><p class="display-in contact-p">Ptolemaiou 4</p>
-          </div>
-          <div class="contact-list">
-            <p class="display-in">Email:</p><p class="display-in contact-p">blessedoil@gmail.com</p>
-          </div>
+        <div class=row>
+          <div class="col contact-info">
+            <h2 class="contact-us">
+              Contact Us
+            </h2>
+            <div class="contact-list">
+              <p class="display-in">Call:</p><p class="display-in contact-p">#33333333333</p>
+            </div>
+            <div class="contact-list">
+              <p class="display-in">Adress:</p><p class="display-in contact-p">Ptolemaiou 4</p>
+            </div>
+            <div class="contact-list">
+              <p class="display-in">Email:</p><p class="display-in contact-p">blessedoil@gmail.com</p>
+            </div>
+        </div>
       </div>
     </div>
       <div class="col footer-tabs">
+
+          <div id="map"></div>
+
       </div>
     </div>
   </div>
@@ -132,13 +137,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="js/jQuery.scrollSpeed.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv7JNwKNuNgVhP3KxO5MTLp24QCzHUj_k&callback=initMap">
+    </script>
 
   </body>
   <script type="text/javascript">
     $(document).ready(function() {
       jQuery.scrollSpeed(100, 800);
     });
-
-
+  </script>
+  <script>
+    function initMap() {
+      var uluru = {lat: 48.588550, lng: 7.766403};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 9,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
   </script>
 </html>
